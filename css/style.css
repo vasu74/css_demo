@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero_section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(2 1fr); */
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero_img {
+  width: 100%;
+}
+
+.hero_text_box {
+  padding: 5rem 0;
+}
+
+.hero_primary_text {
+  font-size: 6rem;
+  line-height: 9rem;
+  font-weight: 300;
+  /* or 90px */
+
+  color: #1c1c1d;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn a {
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  margin-left: 1rem;
+
+  color: #1c1c1d;
+}
+
+/* .reverse_end {
+  grid-column: 2;
+}
+
+.reverse_start {
+  grid-column: 1;
+} */
+
+.second_section {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: repeat(2 1fr); */
+  gap: 3rem;
+  align-items: center;
+}
+
+.second {
+  background-color: #f8f8f8;
+  padding: 4rem 0;
+}
+
+.second_section_hero_img {
+  width: 100%;
+}
+
+.second_section_text_box {
+  padding: 6rem 0;
+}
+
+.second_section_text_box p {
+  font-family: "Auxilia";
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 2.4rem;
+  /* or 30px */
+
+  color: rgba(28, 28, 29, 0.7);
+}
+
+.second_section_primary_text {
+  font-family: "Auxilia-Light";
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 9rem;
+  /* or 90px */
+
+  color: #1c1c1d;
+}
