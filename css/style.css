@@ -21,9 +21,9 @@ body {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 8rem;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1.5fr 1fr;
   /* grid-template-columns: repeat(2 1fr); */
   gap: 3rem;
   align-items: center;
@@ -38,10 +38,14 @@ body {
 }
 
 .hero_primary_text {
-  font-size: 6rem;
-  line-height: 9rem;
-  font-weight: 300;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 85px;
   /* or 90px */
+
+  letter-spacing: 0.1em;
 
   color: #1c1c1d;
 }
@@ -49,18 +53,20 @@ body {
 .btn {
   display: flex;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .btn a {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
   font-size: 20px;
   line-height: 23px;
-  /* identical to box height */
-
   letter-spacing: 0.05em;
   text-decoration: none;
-  margin-left: 1rem;
+  cursor: pointer;
 
+  margin-left: 1rem;
   color: #1c1c1d;
 }
 
@@ -75,7 +81,7 @@ body {
 .second_section {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 8rem;
   display: grid;
   grid-template-columns: 2fr 3fr;
   /* grid-template-columns: repeat(2 1fr); */
@@ -85,7 +91,7 @@ body {
 
 .second {
   background-color: #f8f8f8;
-  padding: 4rem 0;
+  padding: 4rem 0 2.3rem 0;
 }
 
 .second_section_hero_img {
@@ -93,25 +99,29 @@ body {
 }
 
 .second_section_text_box {
-  padding: 6rem 0;
+  padding: 5rem 0 8rem 0;
 }
 
 .second_section_text_box p {
-  font-size: 2rem;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
   line-height: 3rem;
-  font-size: 100;
-  margin-top: 1.2rem;
-  margin-bottom: 2.4rem;
   /* or 30px */
 
   color: rgba(28, 28, 29, 0.7);
 }
 
 .second_section_primary_text {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 9rem;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 80px;
   /* or 90px */
+
+  letter-spacing: 0.1em;
 
   color: #1c1c1d;
 }
