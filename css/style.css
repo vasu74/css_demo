@@ -100,12 +100,12 @@ body {
 .second_section_hero_img {
   width: 100%;
 }
-.second_section_img_box {
+/* .second_section_img_box {
   background-color: blue;
-}
+} */
 
 .second_section_text_box {
-  background-color: red;
+  /* background-color: red; */
   /* padding: 5rem 0 8rem 0; */
 }
 
