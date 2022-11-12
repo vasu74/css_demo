@@ -19,7 +19,7 @@ body {
 }
 
 .hero {
-  max-width: 130rem;
+  max-width: 140rem;
   margin: 0 auto;
   padding: 0 8rem;
   display: grid;
@@ -82,7 +82,7 @@ body {
 } */
 
 .second_section {
-  max-width: 130rem;
+  max-width: 140rem;
   margin: 0 auto;
   padding: 0 8rem;
   display: grid;
